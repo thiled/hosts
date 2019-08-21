@@ -1,5 +1,5 @@
 # hosts-switcher
-A lightweight hosts management script by switch or merge hosts files to /etc/hosts
+A lightweight hosts management script by switch or merge hosts files to **/etc/hosts**
 ## Initialize 
 - create a folder to manage hosts files
 - put the hosts-switcher into the folder
