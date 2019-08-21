@@ -2,14 +2,14 @@
 A lightweight hosts management script by switch or merge hosts files to /etc/hosts
 ## Initialize 
 - create a folder to manage hosts files
-- put the hosts-switcher.sh into the folder
-- chmod +x hosts-swicher.sh
+- put the hosts-switcher into the folder
+- chmod +x hosts-swicher
 ## Usage
 - switch single hostFile
 ```
-sudo ./hosts-swicher.sh hostsFile1
+sudo ./hosts-swicher hostsFile1
 ```
 - merge multipule hostsFiles
 ```
-sudo ./hosts-swicher.sh hostsFile1 hostsFile2 [hostsFile3...]
+sudo ./hosts-swicher hostsFile1 hostsFile2 [hostsFile3...]
 ```
