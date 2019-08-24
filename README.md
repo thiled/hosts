@@ -15,4 +15,4 @@ sudo ./hosts-swicher hostsFile1
 ```
 sudo ./hosts-swicher hostsFile1 hostsFile2 [hostsFile3...]
 ```
-3. the currently applied hosts files will be recorded in the host-switcher.log file.
+3. the currently applied hosts files will be recorded in the **host-switcher.log** file.
