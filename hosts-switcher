@@ -1,7 +1,13 @@
 #!/bin/bash
 index=1
+logfile=hosts-switcher.log
 for file in $*; do
     cat $file
+    if [ $index -eq 1 ]; then
+        echo $file >$logfile
+    else
+        echo $file >>$logfile
+    fi
     if [ $index -lt $# ]; then
         echo ""
     fi
